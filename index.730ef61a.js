@@ -1,0 +1,3 @@
+function n(n,e){return new Promise(function(t){n.addEventListener(e,function(){t("\n        It was ".concat(e,"\n        on the element: ").concat(n.nodeName,",\n        id: ").concat(n.id,"\n      "))},{once:!0})})}var e=function(n){document.body.insertAdjacentHTML("beforeend",'<div class="message">'.concat(n,"</div>"))},t=document.getElementById("login"),c=document.getElementById("password"),o=document.getElementById("submit");n(t,"click").then(e),n(c,"click").then(e),n(o,"click").then(e),n(t,"input").then(e),n(c,"input").then(e),n(t,"blur").then(e),n(c,"blur").then(e),n(o,"blur").then(e);//# sourceMappingURL=index.730ef61a.js.map
+
+//# sourceMappingURL=index.730ef61a.js.map
